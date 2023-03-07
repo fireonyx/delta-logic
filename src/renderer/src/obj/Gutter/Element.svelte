@@ -3,7 +3,7 @@
 </script>
 
 <div class="element">
-    
+
 </div>
 
 <style lang="scss">
@@ -11,9 +11,9 @@
 
     .element {
         background: $l1;
-        width: calc(100vw - 20px);
-        left: 10px;
-        bottom: 10px;
+        width: 100vw;
+        left: 0px;
+        bottom: 0px;
         height: 40px;
         position: fixed;
         border-radius: 4px;
