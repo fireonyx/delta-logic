@@ -10,7 +10,7 @@
     @import "../../assets/color.scss";
 
     .element {
-        background: $l1;
+        background: $l0;
         width: 100vw;
         left: 0px;
         bottom: 0px;

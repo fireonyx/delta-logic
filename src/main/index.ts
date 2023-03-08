@@ -16,10 +16,10 @@ function createWindow(): void {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
       contextIsolation: false,
-      nodeIntegration: true,
+            nodeIntegration: true,
       webSecurity: false,
       allowRunningInsecureContent: true
-    }
+    },
   })
 
   mainWindow.on('ready-to-show', () => {

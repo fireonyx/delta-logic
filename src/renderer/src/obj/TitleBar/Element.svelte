@@ -10,7 +10,7 @@
         <div class="icon">
             <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 80H0L30 50L15 35H35L50 50L80 20H100L70 50L85 65H65L50 50L20 80Z" fill="#BB01FD"/>
-            </svg>                
+            </svg>
         </div>
 
         <span>{title}</span>
@@ -43,7 +43,8 @@
     -webkit-app-region: drag;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    background: $l0;
 
     .info {
         display: flex;
@@ -119,6 +120,7 @@
     padding: 0 5px;
     width: 100vw;
     -webkit-app-region: drag;
+    background: $l0;
 
     &:after {
         position: fixed;
